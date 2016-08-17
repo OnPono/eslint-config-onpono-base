@@ -1,6 +1,7 @@
 module.exports = {
   "extends": "airbnb-base",
   "rules": {
+    "indent": ["error", "tab"],
     "no-use-before-define": [2, {"functions": false, "classes": false}],
     "semi": [2, "never"],
     "new-cap": [2, {"newIsCap": true, "capIsNew": false, "properties": false}],
