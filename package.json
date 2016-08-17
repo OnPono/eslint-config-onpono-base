@@ -1,0 +1,27 @@
+{
+  "name": "eslint-config-onpono-base",
+  "version": "1.0.0",
+  "description": "Extending Airbnb's extensible shared config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OnPono/eslint-config-onpono-base.git"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "lazlojuly",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OnPono/eslint-config-onpono-base/issues"
+  },
+  "homepage": "https://github.com/OnPono/eslint-config-onpono-base#readme",
+  "dependencies": {
+    "eslint": "^3.3.1",
+    "eslint-config-airbnb-base": "^5.0.2",
+    "eslint-plugin-import": "^1.13.0"
+  }
+}
