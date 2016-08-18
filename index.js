@@ -8,6 +8,7 @@ module.exports = {
     "padded-blocks": 0,
     "arrow-body-style": 0,
     "no-underscore-dangle": [2, { "allowAfterThis": true, "allow": ["_id"] }],
-    "no-param-reassign": ["error", { "props": false }]
+    "no-param-reassign": ["error", { "props": false }],
+    "import/no-extraneous-dependencies": ["error", {"devDependencies": true}]
   }
 }
